@@ -1,0 +1,27 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    align-items: center;
+    background: #000;
+    display: flex;
+    font-family: 'Poppins';
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+p {
+    background: url('assets/image here.jpg') no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    filter: grayscale(100%); 
+    font-size: 1.6rem;
+    line-height: 1.3rem;
+    text-align: justify;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
